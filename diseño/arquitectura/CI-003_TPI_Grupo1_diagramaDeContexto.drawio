@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="hdv_VhCau4qyXF9hxTL3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jEWMDm5nVldWpypMZxP2-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Sistema de recuperación de mascotas&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="339" width="122" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Usuarios&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Bases de datos&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;(de mascotas y usuarios)&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Municipio de&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Oro Verde&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-6" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Sistema de geolocalización&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="490" as="sourcePoint" />
+            <mxPoint x="379.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="170" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="420" as="sourcePoint" />
+            <mxPoint x="350" y="420.00800000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="312.5" as="sourcePoint" />
+            <mxPoint x="440" y="163.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394.5" y="163" as="sourcePoint" />
+            <mxPoint x="394.5" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-19" value="Datos de la mascota" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-20" value="Estado de búsqueda de la mascota" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="255" y="257" width="205" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-21" value="Estado de búsqueda de la mascota" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="150" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-22" value="Posición en tiempo real de la mascota" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="414" y="237" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-23" value="Posición en tiempo real de la mascota" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="164" y="400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-24" value="Posición en tiempo real de la mascota" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="174" y="370" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-25" value="Datos del usuario" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="371" y="237" width="86" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jEWMDm5nVldWpypMZxP2-29" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 9px;&quot;&gt;Datos del usuario&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="163.5" as="sourcePoint" />
+            <mxPoint x="370" y="312.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.5" y="163.5" as="sourcePoint" />
+            <mxPoint x="420.5" y="312.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.5" y="312.5" as="sourcePoint" />
+            <mxPoint x="474.5" y="163.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgkJXPA0fEfmJ0TqTDTe-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="610" as="sourcePoint" />
+            <mxPoint x="460.0000000000007" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgkJXPA0fEfmJ0TqTDTe-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403.5" y="490" as="sourcePoint" />
+            <mxPoint x="403.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgkJXPA0fEfmJ0TqTDTe-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 9px;&quot;&gt;Datos de la mascota&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="491" y="399.5" as="sourcePoint" />
+            <mxPoint x="691" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-7" value="Estado del sistema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="180" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hgkJXPA0fEfmJ0TqTDTe-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 9px;&quot;&gt;Datos de la mascota&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgkJXPA0fEfmJ0TqTDTe-6" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 9px;&quot;&gt;Datos del usuario&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="255" y="540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XftwgQI4amfHdewBC6ZF-9" value="Estado del sistema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="180" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
