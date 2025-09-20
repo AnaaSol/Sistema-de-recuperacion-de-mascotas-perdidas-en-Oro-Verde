@@ -2,6 +2,7 @@
 !*.drawio
 !*.png
 !*.xlsx
+!*.pdf
 
 # Archivos de sistema
 .DS_Store
