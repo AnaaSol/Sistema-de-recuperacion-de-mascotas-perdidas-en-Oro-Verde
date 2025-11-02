@@ -33,6 +33,10 @@ app.use('/api/mascotas', mascotaRoutes);
 const reporteRoutes = require('./routes/reporte.routes');
 app.use('/api/reportes', reporteRoutes);
 
+// Geolocalización routes
+const geolocalizacionRoutes = require('./routes/geolocalizacion.routes');
+app.use('/api/geolocalizacion', geolocalizacionRoutes);
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
