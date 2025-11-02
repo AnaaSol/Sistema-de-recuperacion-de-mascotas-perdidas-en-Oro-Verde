@@ -25,6 +25,14 @@ app.get('/', (req, res) => {
 const authRoutes = require('./routes/auth.routes');
 app.use('/api/auth', authRoutes);
 
+// Mascota routes
+const mascotaRoutes = require('./routes/mascota.routes');
+app.use('/api/mascotas', mascotaRoutes);
+
+// Reporte routes
+const reporteRoutes = require('./routes/reporte.routes');
+app.use('/api/reportes', reporteRoutes);
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
