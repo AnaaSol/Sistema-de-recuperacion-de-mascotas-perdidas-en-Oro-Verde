@@ -23,7 +23,7 @@ exports.proteger = async (req, res, next) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'secret-temporal');
 
     // Obtener usuario del token
-    req.usuario = await User.findById(decoded.id);
+    req.usuario = await User.findByPk(decoded.id);
 
     if (!req.usuario) {
       return res.status(401).json({

@@ -1,3 +1,4 @@
+const { sequelize } = require('../config/database');
 const User = require('./User');
 const Mascota = require('./Mascota');
 const Ubicacion = require('./Ubicacion');
@@ -89,6 +90,7 @@ Notificacion.belongsTo(User, {
 });
 
 module.exports = {
+  sequelize,
   User,
   Mascota,
   Ubicacion,
