@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-      "test": "NODE_ENV=test jest --detectOpenHandles --forceExit"
+    "test": "NODE_ENV=test jest --detectOpenHandles --forceExit",
+    "test:coverage": "NODE_ENV=test jest --coverage --detectOpenHandles --forceExit"
   },
   "jest": {
     "testEnvironment": "node",

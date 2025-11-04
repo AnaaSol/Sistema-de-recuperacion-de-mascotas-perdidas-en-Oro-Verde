@@ -87,7 +87,7 @@ describe('UC22 - Generar alerta de mascota perdida', () => {
       mascotaId: mascotaId,
       latitud: -31.7833,
       longitud: -60.5167,
-      descripcionLugar: 'Plaza San Martín, Oro Verde',
+      descripcionLugar: 'Plaza de la Candelaria, Oro Verde',
       descripcion: 'Se perdió esta mañana cerca de la plaza'
     };
 
