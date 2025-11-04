@@ -1,5 +1,5 @@
 // src/services/geolocalizacionService.js
-import axios from 'axios';
+const axios = require('axios');
 
 const API_BASE_URL = process.env.GEO_API_URL || 'http://localhost:3000/api/geolocalizacion';
 
@@ -56,10 +56,10 @@ const calcularDistancia = async (lat1, lon1, lat2, lon2) => {
   }
 };
 
-export const geoService = {
+const geoService = {
   consultarUbicacion,
   obtenerDireccion,
   calcularDistancia
 };
 
-export default geoService;
+module.exports = geoService;
