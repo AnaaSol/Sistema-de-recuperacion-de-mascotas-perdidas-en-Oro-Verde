@@ -151,6 +151,9 @@ describe('UC22 - Generar alerta de mascota perdida', () => {
 
   // TEST 2: Rechazar reporte si faltan campos obligatorios
   test('Debe rechazar reporte de mascota perdida si faltan campos obligatorios', async () => {
+    // Contar alertas antes del test
+    const alertasAntes = await Alerta.count();
+
     const reporteIncompleto = {
       mascotaId: mascotaId,
       latitud: -31.7833
@@ -174,7 +177,7 @@ describe('UC22 - Generar alerta de mascota perdida', () => {
     expect(reportesCount).toBe(0);
 
     // Verificar que NO se crearon alertas adicionales
-    const alertasCount = await Alerta.count();
-    expect(alertasCount).toBe(1); // Solo la del test anterior
+    const alertasDespues = await Alerta.count();
+    expect(alertasDespues).toBe(alertasAntes); // No debe haber alertas nuevas
   });
 });

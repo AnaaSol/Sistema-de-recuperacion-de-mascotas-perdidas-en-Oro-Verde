@@ -1,12 +1,8 @@
-import axios from 'axios';
-import { geoService } from '../src/services/geolocalizacion.service.js';
+const axios = require('axios');
+const geoService = require('../src/services/geolocalizacion.service');
 
-// Mock de axios compatible con módulos ES
-jest.unstable_mockModule('axios', () => ({
-  default: {
-    post: jest.fn(),
-  },
-}));
+// Mock de axios
+jest.mock('axios');
 
 describe('UC23 - Consultar ubicación a sistema de geolocalización', () => {
   // Test 1: Caso exitoso
