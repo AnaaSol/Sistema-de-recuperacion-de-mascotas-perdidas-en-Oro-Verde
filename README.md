@@ -163,16 +163,9 @@ npm run test:watch
 - `POST /api/geolocalizacion/distancia` - Calcular distancia entre ubicaciones
 - `POST /api/geolocalizacion/cercanas` - Buscar mascotas cercanas
 
-## Elementos de Configuración
-Total de CIs: **13**
-- Documentación: 3 CIs
-- Diseño: 7 CIs
-- Código: 3 CIs
-- Recursos: 0 CIs
-
 ## Estado del Proyecto
 
-### ✅ Completado
+### Completado
 - Configuración de base de datos con Sequelize
 - Modelos de datos y relaciones
 - Sistema de autenticación con JWT
@@ -181,13 +174,13 @@ Total de CIs: **13**
 - Sistema de geolocalización
 - Tests unitarios para UC21 y UC23
 
-### 🚧 En Desarrollo
+### En Desarrollo
 - Frontend (cliente web)
 - Capa de servicios completa (falta implementar auth, mascota, reporte, notificacion)
 - Integración con API de geolocalización externa real
 - Sistema de notificaciones por email/SMS
 
-### 📋 Pendiente
+### Pendiente
 - Implementación completa de todos los casos de uso
 - Panel de administración
 - Reportes y estadísticas
